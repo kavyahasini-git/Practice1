@@ -1,1 +1,2 @@
-This is my 1st git test file
+This is my 1st git test file.
+Changes has been made.
