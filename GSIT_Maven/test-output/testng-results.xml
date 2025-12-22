@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-12-01T12:13:19 IST" name="Default suite" finished-at="2025-12-01T12:13:28 IST" duration-ms="9449">
+    <groups>
+    </groups>
+    <test started-at="2025-12-01T12:13:19 IST" name="Default test" finished-at="2025-12-01T12:13:28 IST" duration-ms="9449">
+      <class name="ra_program.RATestng">
+        <test-method signature="addplace()[pri:0, instance:ra_program.RATestng@55a147cc]" started-at="2025-12-01T12:13:19 IST" name="addplace" finished-at="2025-12-01T12:13:23 IST" duration-ms="4140" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addplace -->
+        <test-method signature="updateplace()[pri:0, instance:ra_program.RATestng@55a147cc]" started-at="2025-12-01T12:13:23 IST" name="updateplace" finished-at="2025-12-01T12:13:26 IST" depends-on-methods="ra_program.RATestng.addplace" duration-ms="2960" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateplace -->
+        <test-method signature="getplace()[pri:0, instance:ra_program.RATestng@55a147cc]" started-at="2025-12-01T12:13:26 IST" name="getplace" finished-at="2025-12-01T12:13:28 IST" depends-on-methods="ra_program.RATestng.updateplace, ra_program.RATestng.addplace" duration-ms="2253" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getplace -->
+      </class> <!-- ra_program.RATestng -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
